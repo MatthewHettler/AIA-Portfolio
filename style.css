@@ -22,8 +22,24 @@ header {
     color: white;
 }
 
+.container2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 5rem;
+    height: .2rem;
+    background-color: white;
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 h1{
     font-size: 33px;
+    margin: 0;
 }
 
 p {
