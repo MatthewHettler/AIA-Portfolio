@@ -48,6 +48,11 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.p-text{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .ramirez-img {
     width: 15rem;
     height: auto;
@@ -93,3 +98,24 @@ footer h2{
     font-size: 15px;
     color: white;
 }
+
+.footer-text{
+    margin: 0;
+}
+
+/* Ipad Media Query */
+
+@media only screen and (min-width: 768px) {
+    .ipad-nav{
+        margin-left: .1rem;
+    }
+}
+
+/* Ipad Pro Media Query */
+
+@media only screen and (min-width: 1024px) {
+    .ipad-nav{
+        margin-left: 8rem;
+    }
+}
+
