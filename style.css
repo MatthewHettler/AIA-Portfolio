@@ -34,6 +34,10 @@ header {
     align-items: center;
 }
 
+.anchor-style{
+    color: #0D0E16;
+}
+
 hr{
     width: 5rem;
     height: .2rem;
@@ -68,6 +72,10 @@ p {
     width: 15rem;
     height: auto;
     padding-top: 2rem;
+}
+
+.aia-logo{
+    width: 100%;
 }
 
 .gr-logo{
