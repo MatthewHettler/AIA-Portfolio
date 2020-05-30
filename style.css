@@ -184,11 +184,17 @@ footer h2{
     }
 }
 
-/* .ipad-nav{
-    margin-left: 8rem;
-} */
+/* Ipad Pro Media Query */
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px) { 
+    .ipad-nav{
+margin-left: 8rem;
+}
 
-/* Ipad Pro and Laptop Media Queries */
+}
+
+/* Laptop and Desktop Media Queries */
 
 @media only screen and (min-width: 1024px) {
     .nav-link{
@@ -208,6 +214,11 @@ footer h2{
 
     .aia-logo{
         width: 35%;
+    }
+
+    .embed-style{
+        width: 80%;
+        height: 1127px;
     }
 }
 
