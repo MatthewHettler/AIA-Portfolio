@@ -134,9 +134,43 @@ footer h2{
     .ipad-nav{
         margin-left: .1rem;
     }
+
     .navbar-color{
         background-color: transparent;
     }
+
+    .p-text{
+        font-size: x-large;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .ramirez-img {
+        width: 18rem;
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    hr{
+        width: 8rem;
+        height: .3rem;
+        background-color: white;
+        margin: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .fa-star::before{
+        font-size: 1.7rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
 }
 
 /* Ipad Pro Media Query */
