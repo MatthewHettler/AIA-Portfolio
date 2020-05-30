@@ -184,11 +184,30 @@ footer h2{
     }
 }
 
-/* Ipad Pro Media Query */
+/* .ipad-nav{
+    margin-left: 8rem;
+} */
+
+/* Ipad Pro and Laptop Media Queries */
 
 @media only screen and (min-width: 1024px) {
-    .ipad-nav{
-        margin-left: 8rem;
+    .nav-link{
+        margin-left: 15.7rem;
+    }
+
+    .nav-margin{
+        margin-left: 31rem;
+    }
+
+    main{
+        width: 100%;
+        padding-left: 35rem;
+        padding-right: 35rem;
+        padding-top: 2rem;
+    }
+
+    .aia-logo{
+        width: 35%;
     }
 }
 
