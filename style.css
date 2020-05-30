@@ -148,9 +148,9 @@ footer h2{
     }
 
     .ramirez-img {
-        width: 18rem;
+        width: 20rem;
         height: auto;
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-bottom: 1rem;
     }
 
@@ -171,6 +171,13 @@ footer h2{
         font-size: 1.8rem;
     }
 
+    .aia-logo{
+        width: 60%;
+    }
+
+    .footer-text{
+        font-size: 1.3rem;
+    }
 }
 
 /* Ipad Pro Media Query */
