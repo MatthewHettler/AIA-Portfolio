@@ -204,10 +204,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     main {
         width: 100%;
+        padding: 0;
     }
     
     section{
-        width: 100%;
+        width: 50rem;
     }
 
 }
@@ -228,6 +229,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding-left: 35rem;
         padding-right: 35rem;
         padding-top: 2rem;
+        background-color: #6A6E7F;
+    }
+
+    section{
+        background-color: #8E93A8;
+        margin-bottom: 3rem;
     }
 
     .aia-logo{
