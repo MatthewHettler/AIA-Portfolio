@@ -184,13 +184,31 @@ footer h2{
     }
 }
 
-/* Ipad Pro Media Query */
+/*Ipad Pro 12.9" Media Query*/
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen
-and (min-device-width : 1024px)
-and (max-device-width : 1366px) { 
-    .ipad-nav{
-margin-left: 8rem;
-}
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    html, body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+    
+    section{
+        width: 100%;
+    }
 
 }
 
