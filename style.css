@@ -248,5 +248,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 80%;
         height: 1127px;
     }
+
+    .p-text{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 }
 
