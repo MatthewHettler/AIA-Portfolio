@@ -232,6 +232,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-color: #8E93A8;
     }
 
+    section{
+        border-left: #474954 15px solid;
+        border-right: #474954 15px solid;
+    }
+
     .section-padding{
         padding-bottom: 1rem;
     }
@@ -252,6 +257,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .h1-name{
         font-size: 4rem;
+    }
+
+    hr{
+        width: 8rem;
+        height: 50rem;
+        background-color: white;
+        margin: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .hr-name {
