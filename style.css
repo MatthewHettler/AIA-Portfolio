@@ -124,6 +124,15 @@ section hr{
     height: 100%;
 }
 
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
 footer{
     background-image: linear-gradient(to right top, #0d0e16, #2b2c36, #4a4c59, #6b6f80, #8e93a8);    
     width: 100%;
@@ -248,10 +257,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-color: #8E93A8;
     }
 
-    section{
+    /* section{
         border-left: #474954 15px solid;
         border-right: #474954 15px solid;
-    }
+    } */
 
     .section-padding{
         padding-bottom: 1rem;
